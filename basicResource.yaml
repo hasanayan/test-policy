@@ -7,6 +7,7 @@ resourcePolicy:
   # This resource file is reviewed for when checking permissions when a resource
   # is of `kind` "basicResource"
   resource: basicResource
+  scope: my-scope
 
   rules:
     # If the `principal`s role is `admin` then all the actions are allowed.
